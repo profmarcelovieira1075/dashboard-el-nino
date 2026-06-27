@@ -1,4 +1,5 @@
-npm run build
-git add .
-git commit -m "Load complete dashboard HTML"
-git push
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import DashboardPage from './DashboardPage'
+
+ReactDOM.createRoot(document.getElementById('root')).render(<DashboardPage />)
